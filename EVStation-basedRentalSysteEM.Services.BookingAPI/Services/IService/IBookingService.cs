@@ -12,6 +12,7 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Services.IService
         Task<Booking> CreateBookingAsync(BookingDTO bookingDto);
         Task<Booking?> UpdateBookingStatusAsync(int id, string newStatus);
         Task<bool> CancelBookingAsync(int id);
-        Task<Booking?> ConfirmBookingHopDongAsync(string token);
+        Task<IEnumerable<Booking>> GetBookingsByUserIdAsync(string userId);
+
     }
 }

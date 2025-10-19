@@ -18,7 +18,7 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Models
         public int StationId { get; set; }
 
         [Required]
-        public Guid HopDongId { get; set; }
+        public string HopDongId { get; set; } = "0";
 
         [Required]
         public DateTime StartTime { get; set; }

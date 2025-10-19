@@ -1,4 +1,5 @@
-﻿using EVStation_basedRentalSystem.Services.BookingAPI.Models.DTO;
+﻿using EVStation_basedRentalSystem.Services.BookingAPI.Models;
+using EVStation_basedRentalSystem.Services.BookingAPI.Models.DTO;
 using EVStation_basedRentalSystem.Services.BookingAPI.Services.IService;
 using Microsoft.AspNetCore.Mvc;
 
@@ -43,6 +44,16 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Controllers
             var response = await _bookingService.UpdateBookingStatusAsync(id, status);
             if (response == null) return NotFound();
             return Ok(response);
+        }
+        [HttpGet("user/{userId}")]
+        public async Task<ActionResult<IEnumerable<Booking>>> GetBookingsByUserId(string userId)
+        {
+            var bookings = await _bookingService.GetBookingsByUserIdAsync(userId);
+
+            if (bookings == null || !bookings.Any())
+                return NotFound($"No bookings found for userId {userId}");
+
+            return Ok(bookings);
         }
 
         [HttpDelete("{id}")]

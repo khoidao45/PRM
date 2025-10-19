@@ -27,55 +27,7 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Services
             _carService = carService;
         }
 
-        // ----------------------------
-        // Map BookingDTO -> TaoHopDongDto
-        // ----------------------------
-        private TaoHopDongDto MapToHopDongDto(BookingDTO bookingDto, UserDto user, CarDto car, decimal totalPrice)
-        {
-            int days = (bookingDto.EndDate - bookingDto.StartDate).Days;
-            days = days <= 0 ? 1 : days;
-            string today = DateTime.UtcNow.ToString("yyyy-MM-dd");
-
-            return new TaoHopDongDto(
-                SoHopDong: $"HD-{Guid.NewGuid().ToString().Substring(0, 8)}",
-                NgayKy: DateTime.UtcNow.Day.ToString(),
-                ThangKy: DateTime.UtcNow.Month.ToString(),
-                NamKy: DateTime.UtcNow.Year.ToString(),
-                BenA: new ThongTinBenA(
-                    HoTen: user.FullName,
-                    NamSinh: user.BirthDate ?? "1990-01-01",
-                    CccdHoacHoChieu: user.IdCard ?? "123456789",
-                    HoKhauThuongTru: user.Address ?? "Ha Noi"
-                ),
-                Xe: new ThongTinXe(
-                    NhanHieu: car.Brand,
-                    BienSo: car.LicensePlate,
-                    LoaiXe: car.Model,
-                    MauSon: car.Color ?? "Red",
-                    ChoNgoi: car.SeatCount.ToString(),
-                    XeDangKiHan: car.IsRegistered ? "Yes" : "No"
-                ),
-                GiaThue: new ThongTinGiaThue(
-                    GiaThueSo: totalPrice.ToString("F2"),
-                    GiaThueChu: totalPrice.ToString("C"),
-                    PhuongThucThanhToan: "Tiền mặt",
-                    NgayThanhToan: today
-                ),
-                ThoiHanThueSo: days.ToString(),
-                ThoiHanThueChu: $"{days} ngày",
-                ThoiHanThue: days,
-                DonViThoiHan: "ngay",
-                GPLX: new ThongTinGPLX(
-                    Hang: user.DriverLicenseClass ?? "A",
-                    So: user.DriverLicenseNumber ?? "123456",
-                    HanSuDung: user.DriverLicenseExpiry ?? "2030-12-31"
-                )
-            );
-        }
-
-        // ----------------------------
-        // 1️⃣ Get all bookings
-        // ----------------------------
+        
         public async Task<IEnumerable<Booking>> GetAllBookingsAsync() =>
             await _context.Bookings.ToListAsync();
 
@@ -100,19 +52,13 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Services
             if (hours <= 0) throw new Exception("EndDate must be after StartDate");
 
             decimal totalPrice = Math.Round((decimal)hours * car.HourlyRate, 2);
-            var hopDongDto = MapToHopDongDto(bookingDto, user, car, totalPrice);
 
-            // Tạo HopDong bên ngoài
-            var hopDongId = await _hopDongService.TaoHopDongAsync(hopDongDto);
-            await _hopDongService.GuiEmailXacNhanAsync(hopDongId, user.Email);
-
-            // Tạo booking trong DB
             var booking = new Booking
             {
                 UserId = bookingDto.UserId,
                 CarId = bookingDto.CarId,
                 StationId = car.StationId,
-                HopDongId = hopDongId,
+                HopDongId = "0", // bỏ hợp đồng
                 StartTime = bookingDto.StartDate,
                 EndTime = bookingDto.EndDate,
                 TotalPrice = totalPrice,
@@ -125,23 +71,11 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Services
             return booking;
         }
 
+
         // ----------------------------
         // 4️⃣ Confirm booking HopDong
         // ----------------------------
-        public async Task<Booking?> ConfirmBookingHopDongAsync(string token)
-        {
-            await _hopDongService.XacNhanHopDongAsync(token);
-            var hopDongId = await _hopDongService.GetHopDongIdByTokenAsync(token);
-
-            var booking = await _context.Bookings.FirstOrDefaultAsync(b => b.HopDongId == hopDongId);
-            if (booking != null)
-            {
-                booking.Status = "Confirmed";
-                booking.UpdatedAt = DateTime.UtcNow;
-                await _context.SaveChangesAsync();
-            }
-            return booking;
-        }
+        
 
         // ----------------------------
         // 5️⃣ Update booking status (Pending → Confirmed/Cancelled/Completed)
@@ -175,5 +109,13 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Services
             await _context.SaveChangesAsync();
             return true;
         }
+
+        public async Task<IEnumerable<Booking>> GetBookingsByUserIdAsync(string userId)
+        {
+            return await _context.Bookings
+                .Where(b => b.UserId == userId)
+                .OrderByDescending(b => b.CreatedAt)
+                .ToListAsync();
+        }
     }
-}
+    }
