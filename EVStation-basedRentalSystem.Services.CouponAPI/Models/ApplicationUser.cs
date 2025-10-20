@@ -21,5 +21,6 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Models
         public RenterProfile? RenterProfile { get; set; }
         public StaffProfile? StaffProfile { get; set; }
         public AdminProfile? AdminProfile { get; set; }
+
     }
 }

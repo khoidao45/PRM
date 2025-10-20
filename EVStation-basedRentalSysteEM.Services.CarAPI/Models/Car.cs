@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using EVStation_basedRentalSystem.Services.CarAPI.utils.enums;
 
 namespace EVStation_basedRentalSystem.Services.CarAPI.Models
 {
@@ -45,14 +46,16 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Models
 
         public DateTime? LastMaintenanceDay { get; set; }
 
+        public DateTime? RegistrationExpiry { get; set; }
+
         [MaxLength(255)]
         public string ImageUrl { get; set; }
 
-        [MaxLength(30)]
-        public string State { get; set; }    // e.g., "Available", "In Use", "Maintenance"
+        [Column(TypeName = "nvarchar(30)")]
+        public CarState State { get; set; } = CarState.Available;    // e.g., "Available", "In Use", "Maintenance"
 
-        [MaxLength(30)]
-        public string Status { get; set; }   // general status flag
+        [Column(TypeName = "nvarchar(30)")]
+        public CarStatus Status { get; set; } = CarStatus.Active;   // general status flag
 
         // --- Relationships (optional) ---
         // public Station Station { get; set; }

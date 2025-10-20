@@ -1,5 +1,4 @@
 ﻿using EVStation_basedRentalSystem.Services.AuthAPI.Models;
-using EVStation_basedRentalSystem.Services.UserAPI.Models;
 
 namespace EVStation_basedRentalSystem.Services.AuthAPI.Services.IService.Profile
 {

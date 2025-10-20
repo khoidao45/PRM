@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EVStation_basedRentalSystem.Services.AuthAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250918151622_AddNameToAspNetUsers")]
-    partial class AddNameToAspNetUsers
+    [Migration("20251020172136_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,45 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("EVStation_basedRentalSystem.Services.AuthAPI.Models.AdminProfile", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<bool>("CanApproveUsers")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("CanManageStaff")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("CanViewReports")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("ContactNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ManagedStation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleLevel")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AdminProfiles");
+                });
 
             modelBuilder.Entity("EVStation_basedRentalSystem.Services.AuthAPI.Models.ApplicationUser", b =>
                 {
@@ -37,11 +76,17 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
                     b.Property<bool>("LockoutEnabled")
@@ -51,7 +96,6 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Migrations
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NormalizedEmail")
@@ -71,11 +115,27 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("ProfileImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("RefreshTokenExpiry")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
@@ -92,6 +152,114 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("EVStation_basedRentalSystem.Services.AuthAPI.Models.RenterProfile", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DateOfBirth")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DriverLicenseClass")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DriverLicenseExpiry")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DriverLicenseImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DriverLicenseNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Gender")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("IdentityCardImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("IdentityCardIssuedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IdentityCardIssuedPlace")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("IdentityCardNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LicenseStatus")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReviewNote")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RenterProfiles");
+                });
+
+            modelBuilder.Entity("EVStation_basedRentalSystem.Services.AuthAPI.Models.StaffProfile", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Department")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Position")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StationAssigned")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("WorkShift")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StaffProfiles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -227,6 +395,39 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("EVStation_basedRentalSystem.Services.AuthAPI.Models.AdminProfile", b =>
+                {
+                    b.HasOne("EVStation_basedRentalSystem.Services.AuthAPI.Models.ApplicationUser", "User")
+                        .WithOne("AdminProfile")
+                        .HasForeignKey("EVStation_basedRentalSystem.Services.AuthAPI.Models.AdminProfile", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("EVStation_basedRentalSystem.Services.AuthAPI.Models.RenterProfile", b =>
+                {
+                    b.HasOne("EVStation_basedRentalSystem.Services.AuthAPI.Models.ApplicationUser", "User")
+                        .WithOne("RenterProfile")
+                        .HasForeignKey("EVStation_basedRentalSystem.Services.AuthAPI.Models.RenterProfile", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("EVStation_basedRentalSystem.Services.AuthAPI.Models.StaffProfile", b =>
+                {
+                    b.HasOne("EVStation_basedRentalSystem.Services.AuthAPI.Models.ApplicationUser", "User")
+                        .WithOne("StaffProfile")
+                        .HasForeignKey("EVStation_basedRentalSystem.Services.AuthAPI.Models.StaffProfile", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -276,6 +477,15 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("EVStation_basedRentalSystem.Services.AuthAPI.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("AdminProfile");
+
+                    b.Navigation("RenterProfile");
+
+                    b.Navigation("StaffProfile");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,7 +1,6 @@
 ﻿using EVStation_basedRentalSystem.Services.AuthAPI.Data;
 using EVStation_basedRentalSystem.Services.AuthAPI.Models;
-using EVStation_basedRentalSystem.Services.UserAPI.Models;
-using EVStation_basedRentalSystem.Services.UserAPI.Services.IService;
+using EVStation_basedRentalSystem.Services.AuthAPI.utils.enums;
 using Microsoft.EntityFrameworkCore;
 
 namespace EVStation_basedRentalSystem.Services.UserAPI.Services.Profile
@@ -17,12 +16,16 @@ namespace EVStation_basedRentalSystem.Services.UserAPI.Services.Profile
 
         public async Task<IEnumerable<StaffProfile>> GetAllAsync()
         {
-            return await _context.StaffProfiles.ToListAsync();
+            return await _context.StaffProfiles
+                .Include(s => s.User) // Include linked user
+                .ToListAsync();
         }
 
         public async Task<StaffProfile?> GetByIdAsync(string id)
         {
-            return await _context.StaffProfiles.FirstOrDefaultAsync(s => s.Id == id);
+            return await _context.StaffProfiles
+                .Include(s => s.User)
+                .FirstOrDefaultAsync(s => s.Id == id);
         }
 
         public async Task<StaffProfile> CreateAsync(StaffProfile profile)
@@ -82,7 +85,7 @@ namespace EVStation_basedRentalSystem.Services.UserAPI.Services.Profile
 
             if (renter == null) return false;
 
-            renter.LicenseStatus = "Approved";
+            renter.LicenseStatus = LicenseVerificationStatus.Approved;
             renter.UpdatedAt = DateTime.UtcNow;
 
             _context.RenterProfiles.Update(renter);

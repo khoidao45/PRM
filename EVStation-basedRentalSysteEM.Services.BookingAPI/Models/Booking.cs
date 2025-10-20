@@ -1,5 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using EVStation_basedRentalSysteEM.Services.BookingAPI.utils.enums;
 
 namespace EVStation_basedRentalSystem.Services.BookingAPI.Models
 {
@@ -17,8 +19,8 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Models
         [Required]
         public int StationId { get; set; }
 
-        [Required]
-        public string HopDongId { get; set; } = "0";
+       
+        public string? HopDongId { get; set; } 
 
         [Required]
         public DateTime StartTime { get; set; }
@@ -26,11 +28,11 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Models
         [Required]
         public DateTime EndTime { get; set; }
 
-        [Range(0, double.MaxValue)]
+        [Column(TypeName = "decimal(18,2)")]
         public decimal TotalPrice { get; set; }
 
-        [MaxLength(30)]
-        public string Status { get; set; } = "Pending";
+        [Column(TypeName = "nvarchar(30)")]
+        public BookingStatus Status { get; set; } = BookingStatus.Pending;
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; set; }

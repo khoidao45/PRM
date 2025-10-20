@@ -872,10 +872,10 @@ C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\EVStatio.898CB994.Up2Date
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\EVStation-basedRentalSystem.Services.AuthAPI.dll
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\refint\EVStation-basedRentalSystem.Services.AuthAPI.dll
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\EVStation-basedRentalSystem.Services.AuthAPI.pdb
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\EVStation-basedRentalSystem.Services.AuthAPI.genruntimeconfig.cache
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\ref\EVStation-basedRentalSystem.Services.AuthAPI.dll
+C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,4 +1,7 @@
-﻿namespace EVStation_basedRentalSystem.Services.CarAPI.Models.DTO
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using EVStation_basedRentalSystem.Services.CarAPI.utils.enums;
+
+namespace EVStation_basedRentalSystem.Services.CarAPI.Models.DTO
 {
     public class CarDto
     {
@@ -15,9 +18,13 @@
         public decimal HourlyRate { get; set; }
         public decimal DailyRate { get; set; }
         public DateTime? LastMaintenanceDay { get; set; }
+        public DateTime? RegistrationExpiry { get; set; }
         public string ImageUrl { get; set; }
-        public string State { get; set; }
-        public string Status { get; set; }
+        [Column(TypeName = "nvarchar(30)")]
+        public CarState State { get; set; }
+        [Column(TypeName = "nvarchar(30)")] 
+        public CarStatus Status { get; set; }
+
 
         // Will be filled by StationAPI call
         public StationDto? Station { get; set; }

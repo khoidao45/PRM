@@ -1,5 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using EVStation_basedRendtalSystem.Services.StationAPI.utils.enums;
 
 namespace EVStation_basedRentalSystem.Services.StationAPI.Models
 {
@@ -22,9 +24,8 @@ namespace EVStation_basedRentalSystem.Services.StationAPI.Models
 
         [MaxLength(100)]
         public string Email { get; set; }
-
-        [MaxLength(30)]
-        public string Status { get; set; }  // "Active", "Inactive", "Maintenance"
+        [Column(TypeName = "nvarchar(30)")]
+        public StationStatus Status { get; set; } = StationStatus.Active;  // "Active", "Inactive", "Maintenance"
 
         [MaxLength(255)]
         public string ImageUrl { get; set; }

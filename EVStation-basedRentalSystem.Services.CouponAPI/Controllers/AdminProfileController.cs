@@ -15,15 +15,23 @@ namespace EVStation_basedRentalSystem.Controllers
             _service = service;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAll() => Ok(await _service.GetAllAsync());
-
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(string id)
+        public async Task<ActionResult<AdminProfileDto>> GetById(string id)
         {
             var admin = await _service.GetByIdAsync(id);
-            return admin == null ? NotFound() : Ok(admin);
+            if (admin == null) return NotFound();
+
+            return admin.ToDto();
         }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<AdminProfileDto>>> GetAll()
+        {
+            var admins = await _service.GetAllAsync();
+            return admins.Select(a => a.ToDto()).ToList();
+        }
+
+
 
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AdminProfile profile)

@@ -16,12 +16,16 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Services.Profile
 
         public async Task<IEnumerable<AdminProfile>> GetAllAsync()
         {
-            return await _context.AdminProfiles.ToListAsync();
+            return await _context.AdminProfiles
+                .Include(a => a.User) // Include linked user
+                .ToListAsync();
         }
 
         public async Task<AdminProfile?> GetByIdAsync(string id)
         {
-            return await _context.AdminProfiles.FirstOrDefaultAsync(a => a.Id == id);
+            return await _context.AdminProfiles
+                .Include(a => a.User)
+                .FirstOrDefaultAsync(a => a.Id == id);
         }
 
         public async Task<AdminProfile> CreateAsync(AdminProfile profile)
