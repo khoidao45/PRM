@@ -9,6 +9,7 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Models.Dto
         public string Brand { get; set; } = string.Empty;
         public string LicensePlate { get; set; } = string.Empty;
         public decimal HourlyRate { get; set; }
+        public decimal DailyRate { get; set; }
 
         // Trạng thái pháp lý hoặc trạng thái xe (enum)
         [JsonConverter(typeof(JsonStringEnumConverter))]

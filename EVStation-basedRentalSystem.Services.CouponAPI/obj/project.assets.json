@@ -4573,11 +4573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\EVStation-basedRentalSystem.Services.AuthAPI.csproj",
+      "projectUniqueName": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\EVStation-basedRentalSystem.Services.AuthAPI.csproj",
       "projectName": "EVStation-basedRentalSystem.Services.AuthAPI",
-      "projectPath": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\EVStation-basedRentalSystem.Services.AuthAPI.csproj",
+      "projectPath": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\EVStation-basedRentalSystem.Services.AuthAPI.csproj",
       "packagesPath": "C:\\Users\\MINH KHOI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\obj\\",
+      "outputPath": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

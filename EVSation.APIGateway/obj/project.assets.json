@@ -957,11 +957,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\EVSation.APIGateway\\EVSation.APIGateway.csproj",
+      "projectUniqueName": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVSation.APIGateway\\EVSation.APIGateway.csproj",
       "projectName": "EVSation.APIGateway",
-      "projectPath": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\EVSation.APIGateway\\EVSation.APIGateway.csproj",
+      "projectPath": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVSation.APIGateway\\EVSation.APIGateway.csproj",
       "packagesPath": "C:\\Users\\MINH KHOI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\EVSation.APIGateway\\obj\\",
+      "outputPath": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVSation.APIGateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

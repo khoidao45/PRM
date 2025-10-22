@@ -63,6 +63,7 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Service
                 _db.RenterProfiles.Add(new RenterProfile
                 {
                     Id = user.Id,
+                    UserId = user.Id,
                     FullName = user.Name,
                     PhoneNumber = user.PhoneNumber,
                     CreatedAt = DateTime.UtcNow
@@ -73,14 +74,19 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Service
 
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
 
-            // Use the token as-is, without URL encoding
-            var confirmationLink = $"https://yourfrontend.com/activate?userId={user.Id}&token={token}";
+            // Build email content with token directly
+            var subject = "Activate Your Account";
+            var body = $@"
+Hello {user.Name},<br/><br/>
+Here is your activation token: <b>{token}</b><br/>
+Please copy this token and paste it into the activation page of our app to activate your account.<br/><br/>
+Thank you!
+";
 
             // Send activation email
-            var subject = "Activate Your Account";
-            var body = $"Hello {user.Name},<br/><br/>Please activate your account by clicking this link: <a href='{confirmationLink}'>Activate</a>";
             await _emailService.SendActivationEmail(user.Email, subject, body);
 
+            // Build User DTO
             var userDto = new Models.Dto.UserDto()
             {
                 ID = user.Id,
@@ -90,6 +96,7 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Service
                 Role = "Renter",
                 CreatedAt = user.CreatedAt
             };
+
 
             return new RegistrationResponseDto
             {

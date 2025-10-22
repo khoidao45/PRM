@@ -2,6 +2,7 @@
 using EVStation_basedRentalSysteEM.Services.BookingAPI.utils.enums;
 using EVStation_basedRentalSystem.Services.BookingAPI.Data;
 using EVStation_basedRentalSystem.Services.BookingAPI.Models;
+using EVStation_basedRentalSystem.Services.BookingAPI.Models.Dto;
 using EVStation_basedRentalSystem.Services.BookingAPI.Models.DTO;
 using EVStation_basedRentalSystem.Services.BookingAPI.Services.IService;
 using Microsoft.EntityFrameworkCore;
@@ -66,7 +67,7 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Services
                 throw new Exception("This car is already booked for the selected time range");
 
             // 5️⃣ Tính tổng tiền
-            decimal totalPrice = Math.Round((decimal)hours * car.HourlyRate, 2);
+            decimal totalPrice = CalculateBookingPrice(car, bookingDto.StartDate, bookingDto.EndDate);
 
             // 6️⃣ Tạo Booking (chưa block xe)
             var booking = new Booking
@@ -355,15 +356,63 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Services
                 TotalPages = (int)Math.Ceiling(count / (double)pageSize)
             };
         }
+        public decimal CalculateBookingPrice(CarDto car, DateTime start, DateTime end)
+        {
+            if (car == null) throw new ArgumentNullException(nameof(car));
+
+            var duration = end - start;
+            int days = (int)duration.TotalDays;                    // số ngày trọn
+            double totalHours = duration.TotalHours;
+            int remainingHours = (int)Math.Ceiling(totalHours - days * 24); // giờ lẻ
+
+            // Nếu giờ lẻ >= 20h, tính thành 1 ngày
+            if (remainingHours >= 20)
+            {
+                days += 1;
+                remainingHours = 0;
+            }
+
+            decimal total = days * car.DailyRate + remainingHours * car.HourlyRate;
+            return total;
+        }
 
         public async Task<decimal> CalculateTotalRevenueAsync(DateTime start, DateTime end, string? stationId = null)
         {
             var query = _context.Bookings.AsQueryable();
-            query = query.Where(b => b.StartTime >= start && b.EndTime <= end && (b.Status == BookingStatus.Confirmed || b.Status == BookingStatus.Completed));
-            if (!string.IsNullOrEmpty(stationId) && int.TryParse(stationId, out var sId))
-                query = query.Where(b => b.StationId == sId);
 
-            return await query.SumAsync(b => b.TotalPrice);
+            // Lọc theo thời gian và status Confirmed
+            query = query.Where(b => b.StartTime >= start
+                                  && b.EndTime <= end
+                                  && b.Status == BookingStatus.Confirmed);
+
+            
+
+            var bookings = await query.ToListAsync();
+            decimal totalRevenue = 0;
+
+            foreach (var b in bookings)
+            {
+                var car = await _carService.GetCarByIdAsync(b.CarId);
+                if (car == null) continue;
+
+                var duration = b.EndTime - b.StartTime;
+                int days = (int)duration.TotalDays;
+                double totalHours = duration.TotalHours;
+                int remainingHours = (int)Math.Ceiling(totalHours - days * 24);
+
+                // Nếu giờ lẻ >= 20h, tính thành 1 ngày
+                if (remainingHours >= 20)
+                {
+                    days += 1;
+                    remainingHours = 0;
+                }
+
+                // Tính tổng tiền đúng: DayRate cho ngày, HourlyRate cho giờ
+                decimal revenue = days * car.DailyRate + remainingHours * car.HourlyRate;
+                totalRevenue += revenue;
+            }
+
+            return totalRevenue;
         }
 
         public async Task<int> CountActiveBookingsAsync()

@@ -1,4 +1,5 @@
-﻿using EVStation_basedRentalSystem.Services.AuthAPI.Models;
+﻿using System.Security.Claims;
+using EVStation_basedRentalSystem.Services.AuthAPI.Models;
 
 namespace EVStation_basedRentalSystem.Services.UserAPI.Services.IService
 {
@@ -23,6 +24,7 @@ namespace EVStation_basedRentalSystem.Services.UserAPI.Services.IService
     DateTime? issuedDate,
     string? issuedPlace
 );
+        Task<RenterProfile?> CreateOrUpdateMyProfileAsync(ClaimsPrincipal userClaims, MyRenterProfileDto dto);
 
         // Renter actions
         Task<RenterProfile?> ApproveRenterProfileAsync(string renterId);

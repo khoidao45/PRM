@@ -1,5 +1,8 @@
-﻿using EVStation_basedRentalSystem.Services.AuthAPI.Models;
+﻿using System.Security.Claims;
+using EVStation_basedRentalSystem.Services.AuthAPI.Models;
+using EVStation_basedRentalSystem.Services.AuthAPI.Models.Dto.Request;
 using EVStation_basedRentalSystem.Services.UserAPI.Services.IService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EVStation_basedRentalSystem.Controllers
@@ -33,6 +36,20 @@ namespace EVStation_basedRentalSystem.Controllers
             var renters = await _service.GetAllAsync();
             return renters.Select(r => r.ToDto()).ToList();
         }
+        [HttpPost("me")]
+        [Authorize] // Bắt buộc user phải login
+        public async Task<IActionResult> CreateOrUpdateMyProfile([FromBody] MyRenterProfileDto dto)
+        {
+            var userClaims = HttpContext.User;
+            var profile = await _service.CreateOrUpdateMyProfileAsync(userClaims, dto);
+
+            if (profile == null)
+                return Unauthorized("User not authenticated or token invalid");
+
+            return Ok(profile);
+        }
+
+
 
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] RenterProfile profile)
@@ -99,6 +116,7 @@ namespace EVStation_basedRentalSystem.Controllers
                 : Ok(updated);
         }
     }
+
 
     // ---------------------------------------------
     // DTOs: mở rộng, dễ parse JSON, dễ test Swagger

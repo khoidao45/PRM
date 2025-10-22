@@ -3,6 +3,7 @@ using EVStation_basedRentalSystem.Services.AuthAPI.Models;
 using EVStation_basedRentalSystem.Services.UserAPI.Services.IService;
 using EVStation_basedRentalSystem.Services.AuthAPI.utils.enums;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace EVStation_basedRentalSystem.Services.UserAPI.Services.Profile
 {
@@ -22,6 +23,66 @@ namespace EVStation_basedRentalSystem.Services.UserAPI.Services.Profile
                 .Include(r => r.User) // Eager load User
                 .ToListAsync();
         }
+        public async Task<RenterProfile?> CreateOrUpdateMyProfileAsync(ClaimsPrincipal userClaims, MyRenterProfileDto dto)
+        {
+            // Lấy userId từ token JWT
+            var userId = userClaims.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId)) return null;
+
+            // Kiểm tra profile đã tồn tại chưa
+            var profile = await _context.RenterProfiles.FirstOrDefaultAsync(r => r.UserId == userId);
+            if (profile == null)
+            {
+                // Tạo mới
+                profile = new RenterProfile
+                {
+                    UserId = userId,
+                    FullName = dto.FullName,
+                    PhoneNumber = dto.PhoneNumber,
+                    Address = dto.Address,
+                    Gender = dto.Gender,
+                    DateOfBirth = dto.DateOfBirth,
+                    DriverLicenseNumber = dto.DriverLicenseNumber,
+                    DriverLicenseImageUrl = dto.DriverLicenseImageUrl,
+                    DriverLicenseExpiry = dto.DriverLicenseExpiry,
+                    DriverLicenseClass = dto.DriverLicenseClass,
+                    IdentityCardNumber = dto.IdentityCardNumber,
+                    IdentityCardImageUrl = dto.IdentityCardImageUrl,
+                    IdentityCardIssuedDate = dto.IdentityCardIssuedDate,
+                    IdentityCardIssuedPlace = dto.IdentityCardIssuedPlace,
+                    LicenseStatus = 0, // Pending
+                    IsActive = true,
+                    CreatedAt = DateTime.UtcNow,
+                    UpdatedAt = DateTime.UtcNow
+                };
+                _context.RenterProfiles.Add(profile);
+            }
+            else
+            {
+                // Update
+                profile.FullName = dto.FullName ?? profile.FullName;
+                profile.PhoneNumber = dto.PhoneNumber ?? profile.PhoneNumber;
+                profile.Address = dto.Address ?? profile.Address;
+                profile.Gender = dto.Gender ?? profile.Gender;
+                profile.DateOfBirth = dto.DateOfBirth ?? profile.DateOfBirth;
+
+                profile.DriverLicenseNumber = dto.DriverLicenseNumber ?? profile.DriverLicenseNumber;
+                profile.DriverLicenseImageUrl = dto.DriverLicenseImageUrl ?? profile.DriverLicenseImageUrl;
+                profile.DriverLicenseExpiry = dto.DriverLicenseExpiry ?? profile.DriverLicenseExpiry;
+                profile.DriverLicenseClass = dto.DriverLicenseClass ?? profile.DriverLicenseClass;
+
+                profile.IdentityCardNumber = dto.IdentityCardNumber ?? profile.IdentityCardNumber;
+                profile.IdentityCardImageUrl = dto.IdentityCardImageUrl ?? profile.IdentityCardImageUrl;
+                profile.IdentityCardIssuedDate = dto.IdentityCardIssuedDate ?? profile.IdentityCardIssuedDate;
+                profile.IdentityCardIssuedPlace = dto.IdentityCardIssuedPlace ?? profile.IdentityCardIssuedPlace;
+
+                profile.UpdatedAt = DateTime.UtcNow;
+            }
+
+            await _context.SaveChangesAsync();
+            return profile;
+        }
+
 
         public async Task<RenterProfile?> GetByIdAsync(string id)
         {
