@@ -19,8 +19,7 @@ public class BookingService : IBookingService
 
     public async Task<bool> UpdateBookingStatusAsync(int bookingId, string status)
     {
-        var updateDto = new { Status = status };
-        var response = await _httpClient.PutAsJsonAsync($"{_baseUrl}/{bookingId}/status", updateDto);
+        var response = await _httpClient.PutAsync($"{_baseUrl}/{bookingId}/status?status={status}", null);
         return response.IsSuccessStatusCode;
     }
 }

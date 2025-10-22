@@ -20,7 +20,6 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Services
             var response = await _httpClient.GetAsync($"/api/station/{stationId}");
             if (response.IsSuccessStatusCode)
                 return await response.Content.ReadFromJsonAsync<StationDto>();
-
             return null;
         }
     }

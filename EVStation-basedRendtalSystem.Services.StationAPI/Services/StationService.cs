@@ -5,6 +5,7 @@ using EVStation_basedRentalSystem.Services.StationAPI.Data;
 using EVStation_basedRentalSystem.Services.StationAPI.Models;
 using EVStation_basedRentalSystem.Services.StationAPI.Services.IService;
 using Microsoft.EntityFrameworkCore;
+using EVStation_basedRendtalSystem.Services.StationAPI.utils.enums;
 
 namespace EVStation_basedRentalSystem.Services.StationAPI.Services
 {
@@ -48,7 +49,7 @@ namespace EVStation_basedRentalSystem.Services.StationAPI.Services
         }
 
         public async Task<IEnumerable<Station>> GetActiveStationsAsync() =>
-            await _context.Stations.Where(s => s.Status == "Active").ToListAsync();
+            await _context.Stations.Where(s => s.Status == StationStatus.Active).ToListAsync();
 
         public async Task<IEnumerable<Station>> SearchStationsAsync(string keyword) =>
             await _context.Stations
@@ -60,12 +61,16 @@ namespace EVStation_basedRentalSystem.Services.StationAPI.Services
             var station = await _context.Stations.FindAsync(stationId);
             if (station == null) return false;
 
-            station.Status = status;
-            station.UpdatedAt = System.DateTime.UtcNow;
+            // Convert string to enum
+            if (!Enum.TryParse<StationStatus>(status, out var newStatus))
+                return false; // hoặc throw exception nếu string không hợp lệ
+
+            station.Status = newStatus;
+            station.UpdatedAt = DateTime.UtcNow;
+
             await _context.SaveChangesAsync();
             return true;
         }
-
         public async Task<IEnumerable<Station>> GetStationsWithAvailableCarsAsync()
         {
             // Later, call CarAPI using HttpClient to fetch cars by station.

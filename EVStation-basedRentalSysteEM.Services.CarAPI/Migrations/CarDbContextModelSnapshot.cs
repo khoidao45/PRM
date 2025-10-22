@@ -74,12 +74,14 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<DateTime?>("RegistrationExpiry")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("Seat")
                         .HasColumnType("int");
 
                     b.Property<string>("State")
                         .IsRequired()
-                        .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
                     b.Property<int>("StationId")
@@ -87,7 +89,6 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Migrations
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
                     b.Property<int>("Year")
@@ -96,6 +97,46 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Cars");
+                });
+
+            modelBuilder.Entity("EVStation_basedRentalSystem.Services.CarAPI.Models.CarAvailability", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CarId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("EndTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("StartTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CarId");
+
+                    b.ToTable("CarAvailabilities");
+                });
+
+            modelBuilder.Entity("EVStation_basedRentalSystem.Services.CarAPI.Models.CarAvailability", b =>
+                {
+                    b.HasOne("EVStation_basedRentalSystem.Services.CarAPI.Models.Car", "Car")
+                        .WithMany()
+                        .HasForeignKey("CarId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Car");
                 });
 #pragma warning restore 612, 618
         }

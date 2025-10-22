@@ -58,14 +58,13 @@ public class PaymentController : ControllerBase
         });
     }
 
-    // 2️⃣ Manual sync with PayOS (for local testing)
     [HttpPost("sync/{bookingId}")]
     public async Task<IActionResult> SyncPaymentStatus(int bookingId)
     {
         var payment = await _context.Payments.FirstOrDefaultAsync(p => p.BookingId == bookingId);
         if (payment == null) return NotFound("Payment not found");
 
-        // Get latest payment info from PayOS
+        // Lấy trạng thái thanh toán từ PayOS
         var info = await _payOSService.GetPaymentLinkInformation(payment.OrderCode);
 
         if (info.status == "PAID" && payment.Status != "Success")
@@ -75,8 +74,11 @@ public class PaymentController : ControllerBase
             payment.UpdatedAt = DateTime.UtcNow;
             await _context.SaveChangesAsync();
 
-            // Update booking status
-            await _bookingService.UpdateBookingStatusAsync(payment.BookingId, "Paid");
+            // 1. Update booking
+            var bookingUpdated = await _bookingService.UpdateBookingStatusAsync(payment.BookingId, "Confirmed");
+
+            // 2. Tạo hợp đồng (HopDong)
+           
         }
 
         return Ok(new
@@ -88,6 +90,7 @@ public class PaymentController : ControllerBase
             infoStatus = info.status
         });
     }
+
 
     // 3️⃣ Check local payment status
     [HttpGet("{bookingId}/status")]
@@ -104,6 +107,7 @@ public class PaymentController : ControllerBase
             payment.UpdatedAt
         });
     }
+
 }
 
 // Request DTO

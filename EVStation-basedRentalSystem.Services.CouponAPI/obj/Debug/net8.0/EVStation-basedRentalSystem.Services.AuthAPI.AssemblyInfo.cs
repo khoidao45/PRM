@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EVStation-basedRentalSystem.Services.AuthAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdcdf870e88ba487883b4a7099624d4adc03333a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa6d0edb79e8014552e1b7e99e116ca6206d56db")]
 [assembly: System.Reflection.AssemblyProductAttribute("EVStation-basedRentalSystem.Services.AuthAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EVStation-basedRentalSystem.Services.AuthAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

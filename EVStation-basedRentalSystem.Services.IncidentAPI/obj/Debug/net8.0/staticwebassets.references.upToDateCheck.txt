@@ -27,3 +27,4 @@ C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSystem.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.build.json

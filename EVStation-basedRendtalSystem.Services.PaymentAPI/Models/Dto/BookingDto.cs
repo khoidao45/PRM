@@ -7,8 +7,14 @@
         public int CarId { get; set; }
         public int StationId { get; set; }
         public decimal TotalPrice { get; set; }
-        public string Status { get; set; } = "Pending";
+        public BookingStatus Status { get; set; } = BookingStatus.Pending;
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
     }
+}
+public enum BookingStatus
+{
+    Pending = 0,
+    Confirmed = 1,
+    Cancelled = 2
 }

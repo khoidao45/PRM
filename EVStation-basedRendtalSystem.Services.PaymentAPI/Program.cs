@@ -1,6 +1,7 @@
 ﻿using EVStation_basedRentalSystem.Services.PaymentAPI.Data;
 using EVStation_basedRendtalSystem.Services.PaymentAPI.Services.IService;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,8 @@ builder.Services.AddDbContext<PaymentDbContext>(options =>
 
 // Booking API
 builder.Services.AddHttpClient<IBookingService, BookingService>();
+
+
 
 // PayOSService
 builder.Services.AddSingleton<PayOSService>();

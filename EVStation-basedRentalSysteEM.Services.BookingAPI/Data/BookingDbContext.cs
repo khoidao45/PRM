@@ -1,5 +1,7 @@
 ﻿using EVStation_basedRentalSystem.Services.BookingAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using EVStation_basedRentalSysteEM.Services.BookingAPI.utils.enums;
 
 namespace EVStation_basedRentalSystem.Services.BookingAPI.Data
 {
@@ -16,15 +18,18 @@ namespace EVStation_basedRentalSystem.Services.BookingAPI.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Optional: configure precision for decimal properties
+            // Decimal precision
             modelBuilder.Entity<Booking>()
                 .Property(b => b.TotalPrice)
                 .HasColumnType("decimal(18,2)");
 
-            // Optional: configure default values or relationships
+            // Convert BookingStatus enum to string in DB
+            var converter = new EnumToStringConverter<BookingStatus>();
+
             modelBuilder.Entity<Booking>()
                 .Property(b => b.Status)
-                .HasDefaultValue("Pending");
+                .HasConversion(converter)
+                .HasDefaultValue(BookingStatus.Pending); // default enum value, EF tự convert sang "Pending"
         }
     }
 }

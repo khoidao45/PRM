@@ -613,10 +613,10 @@ C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Service
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\EVStatio.F3E96164.Up2Date
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\EVStation-basedRentalSysteEM.Services.CarAPI.dll
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\refint\EVStation-basedRentalSysteEM.Services.CarAPI.dll
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\EVStation-basedRentalSysteEM.Services.CarAPI.pdb
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\EVStation-basedRentalSysteEM.Services.CarAPI.genruntimeconfig.cache
 C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\ref\EVStation-basedRentalSysteEM.Services.CarAPI.dll
+C:\Users\MINH KHOI\source\repos\ancomga\PRM\EVStation-basedRentalSysteEM.Services.CarAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

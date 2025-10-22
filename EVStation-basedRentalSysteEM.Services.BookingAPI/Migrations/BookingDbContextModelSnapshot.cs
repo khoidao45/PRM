@@ -40,7 +40,6 @@ namespace EVStation_basedRentalSysteEM.Services.BookingAPI.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("HopDongId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("StartTime")
@@ -52,7 +51,6 @@ namespace EVStation_basedRentalSysteEM.Services.BookingAPI.Migrations
                     b.Property<string>("Status")
                         .IsRequired()
                         .ValueGeneratedOnAdd()
-                        .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)")
                         .HasDefaultValue("Pending");
 

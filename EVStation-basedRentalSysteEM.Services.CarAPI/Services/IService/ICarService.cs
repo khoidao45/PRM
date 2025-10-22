@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using EVStation_basedRentalSystem.Services.CarAPI.Models;
+using EVStation_basedRentalSystem.Services.CarAPI.Models.DTO;
 
 namespace EVStation_basedRentalSystem.Services.CarAPI.Services.IService
 {
@@ -8,29 +9,32 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Services.IService
     {
         // Basic CRUD
         Task<IEnumerable<Car>> GetAllCarsAsync();
-        Task<Car> GetCarByIdAsync(int id);
+        Task<Car?> GetCarByIdAsync(int id);
         Task<Car> AddCarAsync(Car car);
-        Task<Car> UpdateCarAsync(Car car);
+        Task<Car?> UpdateCarAsync(Car car);
         Task<bool> DeleteCarAsync(int id);
 
-        // ---- Extended ----
-
-        // Get all cars belonging to a specific station
+        // Extended operations
         Task<IEnumerable<Car>> GetCarsByStationIdAsync(int stationId);
-
-        // Get only available cars
         Task<IEnumerable<Car>> GetAvailableCarsAsync();
-
-        // Change car state (Available, In Use, Maintenance)
         Task<bool> UpdateCarStateAsync(int carId, string newState);
-
-        // Update battery level
         Task<bool> UpdateBatteryLevelAsync(int carId, decimal newBatteryLevel);
-
-        // Filter cars by brand, model, or city
         Task<IEnumerable<Car>> SearchCarsAsync(string keyword);
-
-        // Maintenance utilities
         Task<IEnumerable<Car>> GetCarsNeedingMaintenanceAsync();
+
+        // Booking-related queries
+        Task<Car?> GetCarByBookingIdAsync(int bookingId);
+        Task<IEnumerable<Car>> GetCarsByUserIdAsync(string userId);
+        Task<IEnumerable<Car>> GetCarsByRenterIdAsync(int renterId);
+
+        // Management dashboard
+        Task<IEnumerable<CarDto>> GetAllCarsWithStationAsync();
+
+        
+        Task UnblockExpiredCarsAsync();
+        Task<int?> BlockCarAsync(int carId, DateTime start, DateTime end);
+        Task<bool> UnblockCarAsync(int blockId);
+        Task<IEnumerable<CarAvailability>> GetBlockedCarsAsync(DateTime? from = null, DateTime? to = null);
+
     }
 }

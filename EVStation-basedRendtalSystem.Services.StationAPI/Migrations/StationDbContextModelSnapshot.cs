@@ -65,7 +65,6 @@ namespace EVStation_basedRendtalSystem.Services.StationAPI.Migrations
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
                     b.Property<DateTime?>("UpdatedAt")
