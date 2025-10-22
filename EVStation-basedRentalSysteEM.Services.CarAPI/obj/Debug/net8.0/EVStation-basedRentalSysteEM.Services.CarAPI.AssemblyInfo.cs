@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EVStation-basedRentalSysteEM.Services.CarAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+895e200b3eac17455bd81bd9ca6f470572107f77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df10530a78ebbef92739f3d6a56dcd67d0da5a9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EVStation-basedRentalSysteEM.Services.CarAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EVStation-basedRentalSysteEM.Services.CarAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

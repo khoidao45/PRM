@@ -90,9 +90,9 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Controllers
 
         // ---------------- GET available cars ----------------
         [HttpGet("available")]
-        public async Task<IActionResult> GetAvailableCars()
+        public async Task<IActionResult> GetAvailableCars([FromQuery] DateTime start, [FromQuery] DateTime end, [FromQuery] int? stationId = null)
         {
-            var cars = await _carService.GetAvailableCarsAsync();
+            var cars = await _carService.GetAvailableCarsAsync(start, end, stationId);
             return Ok(cars);
         }
 

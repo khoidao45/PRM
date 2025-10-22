@@ -56,9 +56,7 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Services
         public async Task<IEnumerable<Car>> GetCarsByStationIdAsync(int stationId)
             => await _context.Cars.Where(c => c.StationId == stationId).ToListAsync();
 
-        public async Task<IEnumerable<Car>> GetAvailableCarsAsync()
-            => await _context.Cars.Where(c => c.State == CarState.Available).ToListAsync();
-
+       
         public async Task<bool> UpdateCarStateAsync(int carId, string newState)
         {
             var car = await _context.Cars.FindAsync(carId);
@@ -163,7 +161,43 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Services
 
             return block.Id; // trả về ID block
         }
+        public async Task<IEnumerable<Car>> GetAvailableCarsAsync(DateTime start, DateTime end, int? stationId = null)
+        {
+            // 1️⃣ Lấy tất cả xe (filter theo station nếu có)
+            var allCarsQuery = _context.Cars.AsQueryable();
+            if (stationId.HasValue)
+                allCarsQuery = allCarsQuery.Where(c => c.StationId == stationId.Value);
 
+            var allCars = await allCarsQuery.ToListAsync();
+
+            // 2️⃣ Lấy tất cả block hoặc booking đã biết
+            var allBookings = new List<BookingDto>();
+
+            // Giả sử bạn có danh sách bookingId nào đó cần check
+            // Ví dụ, nếu CarId = booking.CarId => bạn có thể loop từng bookingId
+            // Mình để tạm ví dụ:
+            foreach (var car in allCars)
+            {
+                // chỉ lấy booking id đã biết, ví dụ 1,2,3...
+                var booking = await _bookingService.GetBookingByIdAsync(car.Id);
+                if (booking != null)
+                    allBookings.Add(booking);
+            }
+
+            var conflictingBookings = allBookings
+                .Where(b => (b.Status == "Confirmed" || b.Status == "CheckIn") &&
+                            ((start >= b.StartTime && start < b.EndTime) ||
+                             (end > b.StartTime && end <= b.EndTime) ||
+                             (start <= b.StartTime && end >= b.EndTime)))
+                .ToList();
+
+            var blockedCarIds = conflictingBookings.Select(b => b.CarId).Distinct().ToHashSet();
+
+            // 3️⃣ Lọc xe khả dụng
+            var availableCars = allCars.Where(c => !blockedCarIds.Contains(c.Id));
+
+            return availableCars;
+        }
 
         public async Task UnblockExpiredCarsAsync()
         {
@@ -210,6 +244,14 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Services
 
             return await query.ToListAsync();
         }
+
+        public Task<IEnumerable<Car>> GetAvailableCarsAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+       
+
     }
 
 }

@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.bookingapi\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.bookingapi\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\iservice\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\iservice\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\iservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\iservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\models\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\models\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\models\\dto\\carprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\models\\dto\\carprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\iservice\\istationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\iservice\\istationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\models\\dto\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\models\\dto\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.bookingapi\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.bookingapi\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.bookingapi\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.bookingapi\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.bookingapi\\models\\dto\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,26 +183,6 @@
       "RelativeMoniker": "D:0:0:{C2A154B5-B432-4C4E-AEF5-8E11EA3D9C0D}|EVStation-basedRentalSystem.Services.CouponAPI\\EVStation-basedRentalSystem.Services.AuthAPI.csproj|solutionrelative:evstation-basedrentalsystem.services.couponapi\\models\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\models\\dto\\carprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\models\\dto\\carprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\iservice\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\iservice\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.bookingapi\\services\\iservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.bookingapi\\services\\iservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -223,16 +247,8 @@
       "RelativeMoniker": "D:0:0:{79D863FC-64DC-4231-9AA6-DDE2B61D5757}|EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.bookingapi\\services\\hopdongservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\iservice\\istationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\iservice\\istationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\models\\caravailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\models\\caravailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\iservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\iservice\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\models\\dto\\stationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -249,18 +265,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\models\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\models\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\models\\dto\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\models\\dto\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|solutionrelative:evstation-basedrentalsysteem.services.carapi\\services\\stationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9A398F2-1336-4ACE-851F-49ACB04995F3}|EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj|c:\\users\\minh khoi\\source\\repos\\test\\prm\\evstation-basedrentalsysteem.services.carapi\\data\\cardbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -661,11 +665,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "RenterProfileController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\RenterProfileController.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\RenterProfileController.cs",
@@ -687,59 +691,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\BookingService.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\BookingService.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\BookingService.cs*",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\BookingService.cs*",
-              "ViewState": "AgIAAHcBAAAAAAAAAAAuwJ8BAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T15:49:32.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookingDto.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\BookingDto.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\BookingDto.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\BookingDto.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\BookingDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T15:12:17.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CarDto.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\CarDto.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\CarDto.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\CarDto.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\CarDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\BookingService.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\BookingService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T03:15:43.597Z",
+              "WhenOpened": "2025-10-21T03:54:45.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Controllers\\CarController.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Controllers\\CarController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAASwGAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T04:09:47.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Booking.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Booking.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\ICarService.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\ICarService.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\ICarService.cs*",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\ICarService.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwCUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T15:12:25.674Z",
+              "WhenOpened": "2025-10-21T03:33:11.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\CarService.cs*",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\CarService.cs*",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAiwMIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T15:01:51.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IBookingService.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IBookingService.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T03:54:16.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingDto.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\BookingDto.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\BookingDto.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\BookingDto.cs*",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\BookingDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T03:55:25.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarProfile.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarProfile.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarProfile.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarProfile.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T09:22:14.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Car.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:22:11.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IStationService.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IStationService.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IStationService.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IStationService.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IStationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T03:33:18.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarDto.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarDto.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarDto.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarDto.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T09:22:09.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StationService.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\StationService.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\StationService.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\StationService.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\StationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T15:02:05.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CarService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\CarService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\CarService.cs",
@@ -752,7 +847,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
+              "Title": "BookingDto.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\BookingDto.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\BookingDto.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\BookingDto.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\BookingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:12:17.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\BookingService.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\BookingService.cs",
+              "ViewState": "AgIAAHMBAAAAAAAAAAAUwIMBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:49:32.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CarDto.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\CarDto.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\CarDto.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\CarDto.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\CarDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T03:15:43.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Booking.cs",
+              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Booking.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T15:12:25.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "IRenterProfileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\Profile\\IRenterProfileService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\Profile\\IRenterProfileService.cs",
@@ -765,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "RenterProfileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\Profile\\RenterProfileService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\Profile\\RenterProfileService.cs",
@@ -778,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "ProfileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\Profile\\ProfileService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\Profile\\ProfileService.cs",
@@ -791,7 +942,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "AdminProfileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\Profile\\AdminProfileService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\Profile\\AdminProfileService.cs",
@@ -804,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "MyRenterProifileDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\MyRenterProifileDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\MyRenterProifileDto.cs",
@@ -817,7 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "Dtos.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Dtos.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Dtos.cs",
@@ -830,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "RenterRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\RenterRequestDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\RenterRequestDto.cs",
@@ -843,7 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "RegistrationRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\RegistrationRequestDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\RegistrationRequestDto.cs",
@@ -856,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "RenterProfile.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\RenterProfile.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\RenterProfile.cs",
@@ -869,7 +1020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "RefreshTokenResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\RefreshTokenResponseDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\RefreshTokenResponseDto.cs",
@@ -882,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "UserManagementService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\UserManagementService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\UserManagementService.cs",
@@ -895,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "RegistrationService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\RegistrationService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\RegistrationService.cs",
@@ -908,7 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\JwtTokenGenerator.cs",
@@ -921,7 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "AuthorizeService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\AuthorizeService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\AuthorizeService.cs",
@@ -934,7 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\AuthenticationService.cs",
@@ -947,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "StaffProfileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\Profile\\StaffProfileService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\Profile\\StaffProfileService.cs",
@@ -960,7 +1111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "IUserManagementService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IUserManagementService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IUserManagementService.cs",
@@ -973,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\ITokenService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\ITokenService.cs",
@@ -986,7 +1137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 35,
               "Title": "ITokenIntrospectionService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\ITokenIntrospectionService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\ITokenIntrospectionService.cs",
@@ -999,7 +1150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 36,
               "Title": "IRegestrationService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IRegestrationService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IRegestrationService.cs",
@@ -1012,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 37,
               "Title": "IJwtTokenGenerator.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IJwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IJwtTokenGenerator.cs",
@@ -1025,7 +1176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 38,
               "Title": "IAuthorizeService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IAuthorizeService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IAuthorizeService.cs",
@@ -1038,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 39,
               "Title": "EVStation-basedRentalSysteEM.Services.CarAPI.csproj",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\EVStation-basedRentalSysteEM.Services.CarAPI.csproj",
@@ -1051,7 +1202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 40,
               "Title": "EVStation-basedRentalSysteEM.Services.BookingAPI.csproj",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\EVStation-basedRentalSysteEM.Services.BookingAPI.csproj",
@@ -1064,7 +1215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 41,
               "Title": "StaffProfile.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\StaffProfile.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\StaffProfile.cs",
@@ -1076,7 +1227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 42,
               "Title": "Token.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Token.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Token.cs",
@@ -1088,7 +1239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 43,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\UserDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\UserDto.cs",
@@ -1100,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "AdminProfile.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\AdminProfile.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\AdminProfile.cs",
@@ -1112,67 +1263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CarProfile.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarProfile.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarProfile.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarProfile.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T09:22:14.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ICarService.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\ICarService.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\ICarService.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\ICarService.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\ICarService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAUwCQAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:33:11.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CarController.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Controllers\\CarController.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Controllers\\CarController.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Controllers\\CarController.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Controllers\\CarController.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAUwMIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T04:09:47.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CarService.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\CarService.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\CarService.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\CarService.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\CarService.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAAAMUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:01:51.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\BookingService.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\BookingService.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\BookingService.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\BookingService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:54:45.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "IBookingService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\IService\\IBookingService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\IService\\IBookingService.cs",
@@ -1184,7 +1275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "IHopDongService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\IService\\IHopDongService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\IService\\IHopDongService.cs",
@@ -1196,7 +1287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "EVStation-basedRendtalSystem.Services.PaymentAPI.csproj",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\EVStation-basedRendtalSystem.Services.PaymentAPI.csproj",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\EVStation-basedRendtalSystem.Services.PaymentAPI.csproj",
@@ -1209,7 +1300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "PaymentDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Data\\PaymentDbContext.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Data\\PaymentDbContext.cs",
@@ -1221,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "ICarService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\IService\\ICarService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\IService\\ICarService.cs",
@@ -1233,7 +1324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "BookingDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Models\\Dto\\BookingDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Models\\Dto\\BookingDto.cs",
@@ -1245,7 +1336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Program.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Program.cs",
@@ -1257,7 +1348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 52,
               "Title": "IBookingService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Services\\IService\\IBookingService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Services\\IService\\IBookingService.cs",
@@ -1269,7 +1360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "BookingService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Services\\BookingService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Services\\BookingService.cs",
@@ -1281,7 +1372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Controllers\\PaymentController.cs",
@@ -1293,7 +1384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "PaymentCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Models\\Dto\\PaymentCreateDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Models\\Dto\\PaymentCreateDto.cs",
@@ -1305,7 +1396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Controllers\\BookingController.cs",
@@ -1317,7 +1408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "UserServiceClient.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Cilents\\UserServiceClient.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Cilents\\UserServiceClient.cs",
@@ -1329,7 +1420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "StationServiceCilent.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Cilents\\StationServiceCilent.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Cilents\\StationServiceCilent.cs",
@@ -1341,7 +1432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "HopDongServiceCilent.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Cilents\\HopDongServiceCilent.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Cilents\\HopDongServiceCilent.cs",
@@ -1353,7 +1444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "HopDongService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\HopDongService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\HopDongService.cs",
@@ -1365,31 +1456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "IStationService.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IStationService.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IStationService.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IStationService.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IStationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:33:18.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "IBookingService.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IBookingService.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IBookingService.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IBookingService.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\IService\\IBookingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:54:16.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "CarAvailability.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\CarAvailability.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\CarAvailability.cs",
@@ -1401,7 +1468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "StationDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\StationDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\StationDto.cs",
@@ -1413,7 +1480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "CarState.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\utils\\enums\\CarState.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\utils\\enums\\CarState.cs",
@@ -1425,7 +1492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "CarStatus.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\utils\\enums\\CarStatus.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\utils\\enums\\CarStatus.cs",
@@ -1437,7 +1504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\appsettings.json",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\appsettings.json",
@@ -1449,43 +1516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "BookingDto.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\BookingDto.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\BookingDto.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\BookingDto.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\BookingDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T03:55:25.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "CarDto.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarDto.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarDto.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarDto.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Models\\Dto\\CarDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T09:22:09.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "StationService.cs",
-              "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\StationService.cs",
-              "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\StationService.cs",
-              "ToolTip": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\StationService.cs",
-              "RelativeToolTip": "EVStation-basedRentalSysteEM.Services.CarAPI\\Services\\StationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:02:05.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "CarDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Data\\CarDbContext.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Data\\CarDbContext.cs",
@@ -1497,7 +1528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\IService\\IUserService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\IService\\IUserService.cs",
@@ -1509,7 +1540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "BookingDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Data\\BookingDbContext.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Data\\BookingDbContext.cs",
@@ -1521,7 +1552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "PayOSService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Services\\PayOSService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Services\\PayOSService.cs",
@@ -1533,7 +1564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "WebhookDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Models\\Dto\\WebhookDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Models\\Dto\\WebhookDto.cs",
@@ -1545,7 +1576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "BookingStatus.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\utils\\enums\\BookingStatus.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\utils\\enums\\BookingStatus.cs",
@@ -1557,7 +1588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Services\\UserService.cs",
@@ -1569,7 +1600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 146,
               "Title": "DTOs.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Application\\DTOs.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Application\\DTOs.cs",
@@ -1581,7 +1612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 147,
               "Title": "HopDongController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.APIs\\HopDongController.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.APIs\\HopDongController.cs",
@@ -1593,7 +1624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 148,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.APIs\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.APIs\\Program.cs",
@@ -1605,7 +1636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 149,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.APIs\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.APIs\\WeatherForecast.cs",
@@ -1617,7 +1648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 150,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.APIs\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.APIs\\appsettings.json",
@@ -1629,7 +1660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 151,
               "Title": "HopDong.APIs.http",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.APIs\\HopDong.APIs.http",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.APIs\\HopDong.APIs.http",
@@ -1641,7 +1672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 152,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.APIs\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.APIs\\Controllers\\WeatherForecastController.cs",
@@ -1653,7 +1684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 153,
               "Title": "HopDongExpirationService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.APIs\\BackgroundServices\\HopDongExpirationService.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.APIs\\BackgroundServices\\HopDongExpirationService.cs",
@@ -1665,7 +1696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 154,
               "Title": "HopDongService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\HopDongService.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\HopDongService.cs",
@@ -1677,7 +1708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 155,
               "Title": "HopDongFileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\HopDongFileService.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\HopDongFileService.cs",
@@ -1689,7 +1720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 156,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\EmailService.cs",
@@ -1701,7 +1732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 157,
               "Title": "IHopDongService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\IServices\\IHopDongService.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\IServices\\IHopDongService.cs",
@@ -1713,7 +1744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 158,
               "Title": "IHopDongFileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\IServices\\IHopDongFileService.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\IServices\\IHopDongFileService.cs",
@@ -1725,7 +1756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 159,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\IServices\\IEmailService.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Application\\Services\\IServices\\IEmailService.cs",
@@ -1737,7 +1768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 160,
               "Title": "HopDongThueXe.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Domain\\Entities\\HopDongThueXe.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Domain\\Entities\\HopDongThueXe.cs",
@@ -1749,7 +1780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 161,
               "Title": "IHopDongRepository.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Domain\\Interfaces\\IHopDongRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Domain\\Interfaces\\IHopDongRepository.cs",
@@ -1761,7 +1792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 162,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Infrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Infrastructure\\Data\\ApplicationDbContext.cs",
@@ -1773,7 +1804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 163,
               "Title": "ApplicationDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Infrastructure\\Data\\ApplicationDbContextFactory.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Infrastructure\\Data\\ApplicationDbContextFactory.cs",
@@ -1785,7 +1816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 164,
               "Title": "HopDongRepository.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Infrastructure\\Repositories\\HopDongRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Infrastructure\\Repositories\\HopDongRepository.cs",
@@ -1797,7 +1828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\appsettings.json",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\appsettings.json",
@@ -1809,7 +1840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Program.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Program.cs",
@@ -1821,7 +1852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Program.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Program.cs",
@@ -1833,7 +1864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "CarServiceCilent.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Cilents\\CarServiceCilent.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Cilents\\CarServiceCilent.cs",
@@ -1845,7 +1876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "BookingResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\Response\\BookingResponseDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\Response\\BookingResponseDto.cs",
@@ -1857,7 +1888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\UserDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\UserDto.cs",
@@ -1869,7 +1900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "StationDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\StationDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\StationDto.cs",
@@ -1881,7 +1912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "TaoHopDongDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\TaoHopDongDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Models\\Dto\\TaoHopDongDto.cs",
@@ -1893,7 +1924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
+              "DocumentIndex": 165,
               "Title": "HopDong.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Domain\\HopDong.Domain.csproj",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Domain\\HopDong.Domain.csproj",
@@ -1905,7 +1936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 166,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.APIs\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.APIs\\Properties\\launchSettings.json",
@@ -1917,7 +1948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Models\\Payment.cs",
@@ -1929,7 +1960,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\appsettings.json",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\appsettings.json",
@@ -1941,7 +1972,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "StationDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.StationAPI\\Models\\Dto\\StationDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.StationAPI\\Models\\Dto\\StationDto.cs",
@@ -1953,7 +1984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "StationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.StationAPI\\Data\\StationDbContext.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.StationAPI\\Data\\StationDbContext.cs",
@@ -1965,7 +1996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "StationStatus.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.StationAPI\\utils\\enums\\StationStatus.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.StationAPI\\utils\\enums\\StationStatus.cs",
@@ -1977,7 +2008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "Station.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.StationAPI\\Models\\Station.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.StationAPI\\Models\\Station.cs",
@@ -1989,7 +2020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "StationService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.StationAPI\\Services\\StationService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.StationAPI\\Services\\StationService.cs",
@@ -2001,7 +2032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "StationController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.StationAPI\\Controllers\\StationController.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.StationAPI\\Controllers\\StationController.cs",
@@ -2013,7 +2044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "JwtOptions.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\JwtOptions.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\JwtOptions.cs",
@@ -2025,7 +2056,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\ApplicationUser.cs",
@@ -2037,7 +2068,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "AdminProfileController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\AdminProfileController.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\AdminProfileController.cs",
@@ -2049,7 +2080,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "StaffProfileController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\StaffProfileController.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\StaffProfileController.cs",
@@ -2061,7 +2092,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 94,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -2073,7 +2104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Data\\AppDbContext.cs",
@@ -2085,7 +2116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 95,
               "Title": "IStaffProfileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\Profile\\IStaffProfileService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\Profile\\IStaffProfileService.cs",
@@ -2097,7 +2128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 96,
               "Title": "AuthAPIController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\AuthAPIController.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\AuthAPIController.cs",
@@ -2109,7 +2140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 97,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Controllers\\ProfileController.cs",
@@ -2121,7 +2152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "IProfileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\Profile\\IProfileService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\Profile\\IProfileService.cs",
@@ -2133,7 +2164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "IAdminProfileService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\Profile\\IAdminProfileService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\Profile\\IAdminProfileService.cs",
@@ -2145,7 +2176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "RoleSeeder.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Data\\RoleSeeder.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Data\\RoleSeeder.cs",
@@ -2157,7 +2188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 101,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\IService\\IAuthenticationService.cs",
@@ -2169,7 +2200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 102,
               "Title": "20251020172136_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Migrations\\20251020172136_InitialCreate.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Migrations\\20251020172136_InitialCreate.cs",
@@ -2181,7 +2212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 104,
               "Title": "LicenseVerificationStatus.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\utils\\enums\\LicenseVerificationStatus.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\utils\\enums\\LicenseVerificationStatus.cs",
@@ -2193,7 +2224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 103,
               "Title": "EVStation-basedRentalSystem.Services.AuthAPI.csproj",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\EVStation-basedRentalSystem.Services.AuthAPI.csproj",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\EVStation-basedRentalSystem.Services.AuthAPI.csproj",
@@ -2206,7 +2237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 105,
               "Title": "TokenIntrospectionService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Services\\TokenIntrospectionService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Services\\TokenIntrospectionService.cs",
@@ -2218,7 +2249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 106,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Program.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Program.cs",
@@ -2230,7 +2261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 107,
               "Title": "EVStation-basedRentalSystem.Services.AuthAPI.http",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\EVStation-basedRentalSystem.Services.AuthAPI.http",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\EVStation-basedRentalSystem.Services.AuthAPI.http",
@@ -2242,7 +2273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 108,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\appsettings.json",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\appsettings.json",
@@ -2254,7 +2285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 109,
               "Title": "LoginResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\LoginResponseDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\LoginResponseDto.cs",
@@ -2266,7 +2297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 110,
               "Title": "RegistrationResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\RegistrationResponseDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\RegistrationResponseDto.cs",
@@ -2278,7 +2309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 111,
               "Title": "ResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\ResponseDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\ResponseDto.cs",
@@ -2290,7 +2321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 112,
               "Title": "ResetPasswordResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\ResetPasswordResponseDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\ResetPasswordResponseDto.cs",
@@ -2302,7 +2333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 113,
               "Title": "AssignRoleResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\AssignRoleResponseDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\AssignRoleResponseDto.cs",
@@ -2314,7 +2345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 114,
               "Title": "ChangePasswordResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\ChangePasswordResponseDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\ChangePasswordResponseDto.cs",
@@ -2326,7 +2357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 115,
               "Title": "ChangePasswordRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\ChangePasswordRequestDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\ChangePasswordRequestDto.cs",
@@ -2338,7 +2369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 116,
               "Title": "ForgotPasswordRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\ForgotPasswordRequestDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\ForgotPasswordRequestDto.cs",
@@ -2350,7 +2381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 117,
               "Title": "AssignRoleRequest.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\AssignRoleRequest.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\AssignRoleRequest.cs",
@@ -2362,7 +2393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 118,
               "Title": "RefreshTokenRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\RefreshTokenRequestDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\RefreshTokenRequestDto.cs",
@@ -2374,7 +2405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 119,
               "Title": "ResetPasswordRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\ResetPasswordRequestDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\ResetPasswordRequestDto.cs",
@@ -2386,7 +2417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 120,
               "Title": "SendMailRequest.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\SendMailRequest.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\SendMailRequest.cs",
@@ -2398,7 +2429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 121,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Extenstion\\EmailService.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Extenstion\\EmailService.cs",
@@ -2410,7 +2441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 122,
               "Title": "UserServiceClient.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Cilents\\UserServiceClient.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Cilents\\UserServiceClient.cs",
@@ -2422,7 +2453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 167,
               "Title": "HopDong.APIs.csproj",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.APIs\\HopDong.APIs.csproj",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.APIs\\HopDong.APIs.csproj",
@@ -2434,7 +2465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 167,
+              "DocumentIndex": 168,
               "Title": "HopDong.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Infrastructure\\HopDong.Infrastructure.csproj",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Infrastructure\\HopDong.Infrastructure.csproj",
@@ -2446,7 +2477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 168,
+              "DocumentIndex": 169,
               "Title": "HopDong.Application.csproj",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga\\PRM\\HopDong\\HopDong.Application\\HopDong.Application.csproj",
               "RelativeDocumentMoniker": "..\\..\\ancomga\\PRM\\HopDong\\HopDong.Application\\HopDong.Application.csproj",
@@ -2458,7 +2489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 123,
               "Title": "20251019154854_updatebookinfa.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Migrations\\20251019154854_updatebookinfa.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Migrations\\20251019154854_updatebookinfa.cs",
@@ -2470,7 +2501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 124,
               "Title": "IntrospectResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\IntrospectResponseDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Response\\IntrospectResponseDto.cs",
@@ -2482,7 +2513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 125,
               "Title": "LoginRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\LoginRequestDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\LoginRequestDto.cs",
@@ -2494,7 +2525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 126,
               "Title": "IntrospectRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\IntrospectRequestDto.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Models\\Dto\\Request\\IntrospectRequestDto.cs",
@@ -2506,7 +2537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 127,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSystem.Services.CouponAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EVStation-basedRentalSystem.Services.CouponAPI\\Properties\\launchSettings.json",
@@ -2518,7 +2549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 128,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVSation.APIGateway\\appsettings.json",
               "RelativeDocumentMoniker": "EVSation.APIGateway\\appsettings.json",
@@ -2530,7 +2561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 129,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Properties\\launchSettings.json",
@@ -2542,7 +2573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 130,
               "Title": "20251017183655_addordercode.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Migrations\\20251017183655_addordercode.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Migrations\\20251017183655_addordercode.cs",
@@ -2554,7 +2585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 131,
               "Title": "EVStation-basedRentalSystem.Services.AuthAPI.staticwebassets.endpoints.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\EVStation-basedRentalSystem.Services.AuthAPI.staticwebassets.endpoints.json",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\EVStation-basedRentalSystem.Services.AuthAPI.staticwebassets.endpoints.json",
@@ -2566,7 +2597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 132,
               "Title": "20251017154844_AddPaymentToDb.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Migrations\\20251017154844_AddPaymentToDb.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Migrations\\20251017154844_AddPaymentToDb.cs",
@@ -2578,7 +2609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 133,
               "Title": "PaymentDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Migrations\\PaymentDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\Migrations\\PaymentDbContextModelSnapshot.cs",
@@ -2590,7 +2621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 134,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVSation.APIGateway\\Program.cs",
               "RelativeDocumentMoniker": "EVSation.APIGateway\\Program.cs",
@@ -2602,7 +2633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 135,
               "Title": "EVStation-basedRendtalSystem.Services.PaymentAPI.http",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\EVStation-basedRendtalSystem.Services.PaymentAPI.http",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\EVStation-basedRendtalSystem.Services.PaymentAPI.http",
@@ -2614,7 +2645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 136,
               "Title": "BookingDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Migrations\\BookingDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Migrations\\BookingDbContextModelSnapshot.cs",
@@ -2626,7 +2657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 138,
               "Title": "20251015135608_add-migration return.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Migrations\\20251015135608_add-migration return.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Migrations\\20251015135608_add-migration return.cs",
@@ -2638,7 +2669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 137,
               "Title": "20251015141446_AddBookingToDb.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Migrations\\20251015141446_AddBookingToDb.cs",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Migrations\\20251015141446_AddBookingToDb.cs",
@@ -2650,7 +2681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 141,
               "Title": "EVSation.APIGateway.csproj",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVSation.APIGateway\\EVSation.APIGateway.csproj",
               "RelativeDocumentMoniker": "EVSation.APIGateway\\EVSation.APIGateway.csproj",
@@ -2663,7 +2694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 139,
               "Title": "Ocelot.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVSation.APIGateway\\Ocelot.json",
               "RelativeDocumentMoniker": "EVSation.APIGateway\\Ocelot.json",
@@ -2675,7 +2706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 140,
               "Title": "EVSation.APIGateway.http",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVSation.APIGateway\\EVSation.APIGateway.http",
               "RelativeDocumentMoniker": "EVSation.APIGateway\\EVSation.APIGateway.http",
@@ -2687,7 +2718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 142,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.CarAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.CarAPI\\Properties\\launchSettings.json",
@@ -2699,7 +2730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 143,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRentalSysteEM.Services.BookingAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EVStation-basedRentalSysteEM.Services.BookingAPI\\Properties\\launchSettings.json",
@@ -2711,7 +2742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 144,
               "Title": "20251015152253_AddPaymentToDb.cs",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\ancomga4\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Migrations\\20251015152253_AddPaymentToDb.cs",
               "RelativeDocumentMoniker": "..\\..\\ancomga4\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\Migrations\\20251015152253_AddPaymentToDb.cs",
@@ -2722,7 +2753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 145,
               "Title": "EVStation-basedRendtalSystem.Services.PaymentAPI",
               "DocumentMoniker": "C:\\Users\\MINH KHOI\\source\\repos\\test\\PRM\\EVStation-basedRendtalSystem.Services.PaymentAPI\\EVStation-basedRendtalSystem.Services.PaymentAPI.csproj",
               "RelativeDocumentMoniker": "EVStation-basedRendtalSystem.Services.PaymentAPI\\EVStation-basedRendtalSystem.Services.PaymentAPI.csproj",

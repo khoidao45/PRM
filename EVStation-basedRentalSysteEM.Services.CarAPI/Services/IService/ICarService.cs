@@ -30,11 +30,13 @@ namespace EVStation_basedRentalSystem.Services.CarAPI.Services.IService
         // Management dashboard
         Task<IEnumerable<CarDto>> GetAllCarsWithStationAsync();
 
-        
+        Task<IEnumerable<Car>> GetAvailableCarsAsync(DateTime start, DateTime end, int? stationId = null);
         Task UnblockExpiredCarsAsync();
         Task<int?> BlockCarAsync(int carId, DateTime start, DateTime end);
+   
         Task<bool> UnblockCarAsync(int blockId);
         Task<IEnumerable<CarAvailability>> GetBlockedCarsAsync(DateTime? from = null, DateTime? to = null);
+
 
     }
 }
