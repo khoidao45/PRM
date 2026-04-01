@@ -1,7 +1,10 @@
-﻿using EVStation_basedRentalSystem.Services.CarAPI.Data;
+﻿using System.Text;
+using EVStation_basedRentalSystem.Services.CarAPI.Data;
 using EVStation_basedRentalSystem.Services.CarAPI.Services;
 using EVStation_basedRentalSystem.Services.CarAPI.Services.IService;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +37,22 @@ builder.Services.AddHttpClient<IBookingService, BookingService>(c =>
 
 // ---------------- Scoped Services ----------------
 builder.Services.AddScoped<ICarService, CarService>();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["JwtOptions:Issuer"],
+            ValidAudience = builder.Configuration["JwtOptions:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(builder.Configuration["JwtOptions:Secret"])
+            )
+        };
+    });
 
 var app = builder.Build();
 

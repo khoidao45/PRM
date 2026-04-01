@@ -112,7 +112,7 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Controllers
         }
 
         [HttpGet("{id}")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetUserById(string id)
         {
             var user = await _userManagementService.FindByIdAsync(id);
@@ -121,7 +121,7 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Controllers
         }
 
         [HttpGet]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllUsers()
         {
             var users = await _userManagementService.FindAllAsync();
@@ -129,7 +129,7 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteUser(string id)
         {
             var result = await _userManagementService.DeleteAccountAsync(id);
@@ -138,7 +138,7 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Controllers
 
         // ----------------------- AUTHORIZATION -----------------------
         [HttpPost("assign-role")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AssignRole([FromBody] AssignRoleRequest request)
         {
             var result = await _authorizeService.AssignRoleAsync(request);
@@ -146,7 +146,7 @@ namespace EVStation_basedRentalSystem.Services.AuthAPI.Controllers
         }
 
         [HttpPost("revoke-role")]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> RevokeRole([FromBody] AssignRoleRequest request)
         {
             var result = await _authorizeService.RevokeRoleAsync(request);
